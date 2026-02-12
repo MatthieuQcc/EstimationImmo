@@ -2,7 +2,10 @@
 name = "prediction-appart"
 version = "0.1.0"
 description = "Prédiction de prix d'appartement"
+requires-python = ">=3.10"
 dependencies = [
     "pandas",
-    "scikit-learn"
+    "scikit-learn",
+    "matplotlib",
+    "xgboost"
 ]
