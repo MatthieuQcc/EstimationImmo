@@ -2,7 +2,7 @@
 name = "prediction-appart"
 version = "0.1.0"
 description = "Prédiction de prix d'appartement"
-
-[project.dependencies]
-pandas = "*"
-scikit-learn = "*"
+dependencies = [
+    "pandas",
+    "scikit-learn"
+]
